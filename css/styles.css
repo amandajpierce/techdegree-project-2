@@ -53,6 +53,7 @@ main {
 
 #footer-name {
     font-weight: 700;
+    margin-left: 0px;
 }
 
 #skillspic {
@@ -99,12 +100,13 @@ a:hover {
 }
 
 .main-footer {
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 /* Hide Footer Links Except Back to Top & Bottom Border */
 .footer-nav li {
     display: none;
+    margin-right: 0;
 }
 
 .footer-nav li:first-child {
